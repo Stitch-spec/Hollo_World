@@ -15,6 +15,7 @@ public class IOTest {
             output.write(s.getBytes());
 //            out.flush();
             output.flush();
+	    System.out.println(123);
         }catch (IOException e){
             e.printStackTrace();
         }
